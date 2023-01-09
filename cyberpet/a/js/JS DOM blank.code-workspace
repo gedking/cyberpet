@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "../../../../JS DOM blank"
+		},
+		{
+			"path": "../../../website-main"
+		},
+		{
+			"path": "../../../website2"
+		},
+		{
+			"path": "../../../compsci5/challenges"
+		},
+		{
+			"path": "../../../cyberpet-main"
+		},
+		{
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "cyberpet"
+	}
+}

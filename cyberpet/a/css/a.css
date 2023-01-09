@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Roberto');
+
+/* Main */
+body {
+  font-family: 'Roberto', sans-serif;
+  background: black;
+  color: white;
+  overflow: hidden; 
+}
+
+.nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 100%;
+  background-color: #333;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-out;
+}
+
+.nav-bar[hidden] {
+  display: none;
+}
+
+.nav-bar-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-bar-button {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.nav-bar-button:hover {
+  color: #fff;
+}
+
+.nav-bar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-bar li {
+  display: block;
+}
+
+.nav-bar a {
+  display: block;
+  padding: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-bar a:hover {
+  background-color: #444;
+}
+
+/* Show the navigation bar when the button is clicked */
+.nav-bar-button[aria-expanded="true"] + .nav-bar {
+  transform: translateX(0);
+}

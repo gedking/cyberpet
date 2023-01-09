@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Roberto');
+
+/* Main */
+body {
+	font-family: 'Roberto', sans-serif;
+	background: black;
+	color: white;
+	overflow: hidden;
+
+}
+
+/* CTN Section */
+
+#ctnMain, #ctnOther {
+	position: absolute;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	width: 50%;
+}
+
+#ctnMain, #ctnOther h1 {
+	color: white;
+	text-align: center;
+}
+
+#ctnMain h1 {
+	font-size: 20px;
+}
+
+#ctnOther h1 {
+	font-size: 20px;
+}
+
+#ctnMain {
+	top: 45%;
+	height: 34%;
+}
+
+#ctnOther {
+	top: 64%;
+	height: 9%;
+	border: white 1px solid;
+}
+
+#ctnLeft, #ctnCenter, #ctnRight {
+  position: absolute;
+  border: white 1px solid;
+  height: 86%;
+  overflow: hidden;
+}
+
+#ctnLeft,#ctnRight {
+  width: 30%;
+}
+
+#ctnCenter {
+  width: 40%;
+  left: 30%;
+}
+
+#ctnRight {
+  left: 70%;
+}
+
+#ctnButtons {
+	display: flex;
+margin: 3px;
+padding: 1px;
+}
+
+#ctnInput {
+	margin-top: 25px;
+}
+
+#ctnInput label {
+  text-shadow: 0 0 5px white;
+}
+
+#ctnInput input[type="text"] {
+  border: 1px solid #333;
+  background: transparent;
+  color: white;
+}
+
+#ctnInput input[type="submit"] {
+  border: 1px solid #333;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+}
+
+#ctnInput input[type="submit"]:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
